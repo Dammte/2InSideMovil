@@ -1,0 +1,48 @@
+.featured-content{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.featured-image{
+    padding: 0.2rem;
+}
+
+.featured-image img {
+    width: 50%;
+}
+
+.featured-text{
+    margin: 1rem;
+}
+
+.featured-text h2 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.featured-text-card{
+    border: 1px solid #9C7129;
+    background-color: #9C7129;
+    color: white;
+    border-radius: 2rem;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.featured-text-card button {
+    border: none;
+    background-color: #362F72;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+}
+
+#image-left {
+    rotate: calc(-30deg);
+}
+
+#image-right {
+    rotate: calc(30deg);
+}

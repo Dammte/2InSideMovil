@@ -1,0 +1,10 @@
+.testimonial {
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  flex-direction: row;
+}
+
